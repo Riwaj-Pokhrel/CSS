@@ -1,0 +1,22 @@
+html{
+    background-color: #333;
+}
+body{
+    color: blue;
+    font-size: 22px;
+}
+p{
+    color: purple;
+}
+.ram{
+    color:antiquewhite;
+}
+#second{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+    color: crimson;
+}

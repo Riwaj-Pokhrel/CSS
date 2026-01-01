@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  padding: 5% 10%;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+ol{
+    list-style-type:lower-alpha;
+}
+ul{
+    list-style-type: square;
+    color: #00f;
+    text-align: center;
+    line-height: 1.5;
+    list-style-position: inside;
+    /* list-style-image: url('../checkmark.png');
+   list-style:square url('../checkmark.png') inside; */
+
+}
+ul li:nth-child(2){
+    color:red;
+}
+
+ ul li::marker{
+    color: rgb(238, 58, 13);
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    content:">> "
+}
